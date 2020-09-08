@@ -13,6 +13,18 @@ body {
     margin: 0 auto;
 }
 
+.header-wording {
+    color: black;
+    font-family: Nunito,sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.header-wording-right {
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+
 .main-content {
     height: 100vh;
     width: 100vh;
@@ -20,10 +32,12 @@ body {
 }
 
 .footer {
-    background-color: lightblue;
+    background-color:#2aabe2;
     height: 10vh;
     width: 100%;
     text-align: center;
     word-wrap: break-word;
     font-size: larger;
+    font-family: Nunito,sans-serif;
+    color: white;
 }
