@@ -1,0 +1,29 @@
+body {
+    background-image: url('/Users/toddnorton/Downloads/office.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: fit-content auto;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: grey;
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-content {
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: lightblue;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: larger;
+}
