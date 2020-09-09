@@ -51,11 +51,11 @@ body {
 }
 
 ul {
-    min-width: 20vw;
     display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-    list-style: none;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin: 10px;
+    
 }
 
 .menu-font {
@@ -64,6 +64,8 @@ ul {
     background-color: purple;
 }
 
-.u {
-    
+.strayer {
+    position: relative;
+    top: 25px;
+    left: 20px;
 }
