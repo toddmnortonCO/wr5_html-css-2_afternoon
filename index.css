@@ -7,21 +7,29 @@ body {
 }
 
 .header {
-    background-color: grey;
+    background-color: black  ;
     height: 10vh;
     width: 100%;
     margin: 0 auto;
+    color: white
 }
 
 .header-wording {
-    color: black;
+    color: white;
     font-family: Nunito,sans-serif;
-    font-weight: bold;
     font-size: x-large;
+    font-weight: bold;
 }
 
 .header-wording-right {
     flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-family: Nunito,sans-serif;
+    color: white;
+}
+
+.menu-items {
+    font-size: ;
     justify-content: right;
 }
 
@@ -40,4 +48,22 @@ body {
     font-size: larger;
     font-family: Nunito,sans-serif;
     color: white;
+}
+
+ul {
+    min-width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu-font {
+    font-style: bold;
+    color: white;
+    background-color: purple;
+}
+
+.u {
+    
 }
